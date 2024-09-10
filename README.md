@@ -124,7 +124,7 @@ Books = DataGen(100)
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Contact
-For questions or support, contact [Link Text](https://github.com/PrasadReddy81) .
+For questions or support, contact [Click](https://github.com/PrasadReddy81) .
 
 
 
