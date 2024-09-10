@@ -58,12 +58,12 @@ Random Names Dataset: The script expects a CSV file with random names (Random_na
 The code is built around the DataGen class, which is used to generate random data for books and characters.
 
 DataGen Class
-'__init__(self, size)': Initializes the class with the size parameter, which controls how many entries will be generated.
-'list_pick(self, choice_list, uniform=True, probability_array=None)': Selects random elements from a list either uniformly or non-uniformly based on probabilities.
-'descr_gen(self)': Generates random lorem ipsum text to simulate descriptions.
-'title_gen(self, list_of_words=noun_list)': Generates random book titles using the WordNet noun list.
-'date_gen(self, start_year=1950, end_year=2020, set_month=None)': Generates random dates between specified years.
-'gen_random_name(self, list_1=first_name_list, list_2=last_name_list)': Generates random full names from provided first and last name lists.
+- '__init__(self, size)': Initializes the class with the size parameter, which controls how many entries will be generated.
+- 'list_pick(self, choice_list, uniform=True, probability_array=None)': Selects random elements from a list either uniformly or non-uniformly based on probabilities.
+- 'descr_gen(self)': Generates random lorem ipsum text to simulate descriptions.
+- 'title_gen(self, list_of_words=noun_list)': Generates random book titles using the WordNet noun list.
+- 'date_gen(self, start_year=1950, end_year=2020, set_month=None)': Generates random dates between specified years.
+- 'gen_random_name(self, list_1=first_name_list, list_2=last_name_list)': Generates random full names from provided first and last name lists.
 
 Example Usage
 ## The script uses the DataGen class to generate:
